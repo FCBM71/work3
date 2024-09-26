@@ -1,0 +1,14 @@
+<!-- app01/templates/app01/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ profile.name }}'s Homepage</title>
+</head>
+<body>
+    <h1>Welcome to My Homepage</h1>
+    <p><strong>Owner:</strong> {{ profile.name }}</p>
+    <p><strong>Email:</strong> {{ profile.email }}</p>
+    <p><strong>Bio:</strong> {{ profile.bio }}</p>
+    <p><strong>Joined on:</strong> {{ profile.created_at }}</p>
+</body>
+</html>
